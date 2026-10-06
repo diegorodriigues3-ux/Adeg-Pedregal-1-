@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adeg Pedregal 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container nav-container">
+            <h1 class="logo">ADEG <span>PEDREGAL 1</span></h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#cultos">Programação</a></li>
+                    <li><a href="#aniversariantes">Aniversariantes</a></li>
+                    <li><a href="#eventos">Próximos Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Início / Banner -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h2>Bem-vindo à Adeg Pedregal 1</h2>
+            <p>Um lugar de comunhão, fé e adoração a Deus.</p>
+            <a href="#cultos" class="btn">Ver Programação</a>
+        </div>
+    </section>
+
+    <!-- Dias de Culto -->
+    <section id="cultos" class="section">
+        <div class="container">
+            <h2 class="section-title">Nossa Programação de Cultos</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    <h3>Cultos</h3>
+                    <p>Domingos às 18:30</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-hands-praying"></i>
+                    <h3>Escola Biblica</h3>
+                    <p>Domingos às 09:00</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-book-bible"></i>
+                    <h3>Culto de Ensino</h3>
+                    <p>Quarta-Feira 20:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Próximos Eventos (Puxados direto da Planilha) -->
+    <section id="eventos" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Próximos Eventos</h2>
+            <div class="events-grid" id="dynamic-events">
+                <!-- Os eventos da planilha vão aparecer aqui automaticamente -->
+                <p style="text-align: center; color: #666;">Carregando eventos da planilha...</p>
+            </div>
+        </div>
+    </section>
+    <!-- Destaque para o Drive de Fotos -->
+<section class="section" style="background-color: #f1f8f5; text-align: center; padding: 40px 0;">
+    <div class="container">
+        <h3 style="margin-bottom: 15px; color: #111; font-size: 1.5rem;">📸 Quer ver todas as fotos dos nossos cultos e eventos?</h3>
+        <p style="color: #666; margin-bottom: 20px;">Acesse nosso acervo completo no Google Drive e baixe as fotos.</p>
+        <a href="https://drive.google.com/drive/folders/1HNTzL3N4jEfydkSW4HR_dH5oYQkhJQiY" target="_blank" class="btn-drive">
+            <i class="fa-brands fa-google-drive"></i> Acessar Drive de Fotos
+        </a>
+    </div>
+</section>
+
+    <!-- Aniversariantes do Mês -->
+    <section id="aniversariantes" class="section">
+        <div class="container">
+            <h2 class="section-title">Aniversariantes de Outubro</h2>
+            <div class="birt-grid">
+                <div class="birth-card">
+                    <h3>Celma</h3>
+                    <span class="dept">CIBE</span>
+                    <span class="date">08/10</span>
+                </div>
+                <div class="birth-card">
+                    <h3>Thiago</h3>
+                    <span class="dept">Varões</span>
+                    <span class="date">09/10</span>
+                </div>
+                <div class="birth-card">
+                    <h3>Lindson</h3>
+                    <span class="dept">Varões</span>
+                    <span class="date">22/10</span>
+                </div>
+                <div class="birth-card">
+                    <h3>Jhonathan</h3>
+                    <span class="dept">Jovens</span>
+                    <span class="date">24/10</span>
+                </div>
+                <div class="birth-card">
+                    <h3>Marcelo</h3>
+                    <span class="dept">Varões</span>
+                    <span class="date">26/10</span>
+                </div>
+                <div class="birth-card">
+                    <h3>Dalva</h3>
+                    <span class="dept">CIBE</span>
+                    <span class="date">31/10</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé / Contato -->
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>ADEG Pedregal 1</h3>
+                <p>Unidos pela fé e pelo amor em Cristo.</p>
+            </div>
+            
+            <!-- Links Úteis (Planilha e Drive) -->
+            <div class="footer-links">
+                <h4>Links Úteis</h4>
+                <ul>
+                    <li><a href="https://docs.google.com/spreadsheets/d/1EY606oy7UaYPxFMqhUBGCbTgR-qIvvIS/edit?usp=sharing&ouid=116270083357522043245&rtpof=true&sd=true" target="_blank"><i class="fa-solid fa-file-excel"></i> Planilha de Eventos</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1HNTzL3N4jEfydkSW4HR_dH5oYQkhJQiY" target="_blank"><i class="fa-brands fa-google-drive"></i> Drive de Fotos</a></li>
+                </ul>
+            </div>
+
+            <!-- Redes Sociais e Localização -->
+            <div class="socials">
+                <a href="https://maps.app.goo.gl/thYqQhJvbzxjH6ip8" target="_blank" title="Localização"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="https://www.instagram.com/adeg.pedregal1" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@AdegPedregal1" target="_blank" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ADEG Pedregal 1. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

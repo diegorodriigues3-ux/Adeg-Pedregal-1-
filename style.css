@@ -42,6 +42,7 @@ footer { background: #111; color: #fff; padding: 40px 0 20px 0; }
 .footer-bottom { text-align: center; border-top: 1px solid #222; padding-top: 15px; font-size: 0.85rem; color: #aaa; }
 /* Hero com transição de imagens no fundo */
 .hero {
+    min-height: 100vh;
     height: 100vh;
     position: relative;
     display: flex;
@@ -52,6 +53,7 @@ footer { background: #111; color: #fff; padding: 40px 0 20px 0; }
     justify-content: center;
     overflow: hidden;
     background-color: #1b262c;
+}
 }
 
 /* Elemento de fundo onde a imagem vai rodar */
@@ -177,4 +179,18 @@ footer { background: #111; color: #fff; padding: 40px 0 20px 0; }
     background: #219653;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+}
+/* --- AJUSTES PARA TELEMÓVEL / RESPONSIVO --- */
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2rem; /* Reduz o tamanho do título principal no telemóvel */
+        padding: 0 15px;
+    }
+    .hero-content p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    .nav-links {
+        display: none; /* Evita que o menu estoure em telas muito pequenas */
+    }
 }
